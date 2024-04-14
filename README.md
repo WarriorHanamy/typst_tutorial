@@ -13,6 +13,11 @@ cargo install --git https://github.com/typst/typst --locked typst-cli
 
 
 # Some backup information
+## website of source code 
+https://github.com/typst/typst
+
+## babbles
+
 You can also watch source files and automatically recompile on changes. This is faster than compiling from scratch each time because Typst has incremental compilation.
 
 ```shell
