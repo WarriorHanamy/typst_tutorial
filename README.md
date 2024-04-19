@@ -14,7 +14,7 @@ cargo install --git https://github.com/typst/typst --locked typst-cli
 
 # Some backup information
 ## website of source code 
-https://github.com/typst/typst
+[typst_source](https://github.com/typst/typst)
 
 ## babbles
 
@@ -37,3 +37,7 @@ typst fonts --font-path path/to/fonts
 # Or via environment variable (Linux syntax).
 TYPST_FONT_PATHS=path/to/fonts typst fonts
 ```
+
+
+# imagebed
+[weibo_image_bed](https://github.com/Semibold/Weibo-Picture-Store/blob/master/README.md) 
