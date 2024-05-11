@@ -9,14 +9,20 @@
 
 
 = Last Week's Plan
-- #strike[Complete the writing of `Introduction`.]
-- Prepare to do the MPC experiment of `quadrotor`.
+- Finish the MPC experiment of quadrotor.
 
 = Accomplishment
-- Writing is OK!
-- Written documents for `minco-ros`, `ros2-px4-comm` and `mocap-px4-ros2`
-- Built `quadrotor`
-- Damaged two motors.
+- [x] Coded and Tested Immediate-Reaction Mode Change of `manual` and `offbaord`  mode.
+- [x] C_NMPC Interface.
+- [x] Connectivity between plain simulation and C_NMPC.
+- [] Connectivity between gazebo simulation and C_NMPC. (*rotation*)
+
+#figure(
+  image("Figures/cnmpc_quad.png", width: 80%),
+  caption: [Time Statistics of quadrotor MPC],
+)
 
 = This Week's Plan
 - Finish the MPC experiment of `quadrotor`.
+- [] PX4 interface transription of C_NMPC cmds.
+- [] Real world experiment of C_NMPC. (*rotation*)
